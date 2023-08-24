@@ -57,8 +57,8 @@ class User
             throw new Exception(implode(' ', $statement->errorInfo()));
         }
 
-        $row = $statement->fetch(PDO::FETCH_ASSOC);
-
+        $row = $statement-throw new Exception(implode(' ', $statement->errorInfo
+$row = $statement-throw new Exception(implode(' ', $statement->errorInfo
         if (!is_array($row)) {
             return false;
         }
